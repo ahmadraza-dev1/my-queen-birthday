@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="950" viewBox="0 0 800 950" role="img" aria-label="Romantic illustrated scene">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#182847"/><stop offset=".49" stop-color="#75496e"/><stop offset="1" stop-color="#edb594"/></linearGradient>
+<linearGradient id="skyday" x2="0" y2="1"><stop stop-color="#6b91af"/><stop offset=".6" stop-color="#d4bec4"/><stop offset="1" stop-color="#f7d7ab"/></linearGradient>
+<linearGradient id="darkhill" x2="0" y2="1"><stop stop-color="#416566"/><stop offset="1" stop-color="#183f43"/></linearGradient>
+<linearGradient id="front" x2="0" y2="1"><stop stop-color="#5e7964"/><stop offset="1" stop-color="#2a4940"/></linearGradient>
+<linearGradient id="wood" x2="0" y2="1"><stop stop-color="#c99575"/><stop offset="1" stop-color="#64434c"/></linearGradient>
+<linearGradient id="stone" x2="0" y2="1"><stop stop-color="#e1c8bb"/><stop offset="1" stop-color="#a48a8c"/></linearGradient>
+<linearGradient id="roof" x2="0" y2="1"><stop stop-color="#544551"/><stop offset="1" stop-color="#2d3441"/></linearGradient>
+<linearGradient id="window" x2="0" y2="1"><stop stop-color="#ffe3a1"/><stop offset="1" stop-color="#d68f67"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#ffe2a1" stop-opacity=".7"/><stop offset="1" stop-color="#f5b1a0" stop-opacity="0"/></radialGradient>
+<radialGradient id="lantern"><stop stop-color="#ffe9bb"/><stop offset="1" stop-color="#ff9a71" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+<linearGradient id="pink" x2="1" y2="1"><stop stop-color="#f9c2b9"/><stop offset="1" stop-color="#d37d9d"/></linearGradient>
+</defs><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#534b73"/><stop offset="1" stop-color="#d9a7a8"/></linearGradient></defs><rect width="800" height="950" fill="url(#bg)"/>
+ <circle cx="610" cy="170" r="155" fill="#ffffff" opacity=".08"/><circle cx="107" cy="730" r="205" fill="#ffffff" opacity=".09"/>
+ <path d="M110 746Q405 476 694 748V950H110Z" fill="#ffffff" opacity=".1"/>
+ <rect x="247" y="313" width="307" height="269" rx="31" fill="none" stroke="#ffebde" stroke-width="12" opacity=".65"/><circle cx="346" cy="399" r="28" fill="#ffebde" opacity=".7"/><path d="M279 532l96-92 68 70 52-38 46 60" fill="none" stroke="#ffebde" stroke-width="12" opacity=".7"/>
+ <text x="400" y="666" text-anchor="middle" font-family="Georgia" font-style="italic" fill="#fff5ed" font-size="38">Your photo here</text>
+ <text x="400" y="721" text-anchor="middle" font-family="Arial" letter-spacing="5" fill="#fff5ed" opacity=".7" font-size="20">MEMORY 01</text></svg>

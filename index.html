@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#13201e">
+  <meta name="description" content="A little fairytale made with love for My Queen.">
+  <title>For My Queen — A Little Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="content.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app" class="film">
+    <div class="film-grain" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div>
+    <div class="butterfly-field" id="particles" aria-hidden="true"></div>
+    <div class="film-top"><span id="chapterLabel">A little universe</span><span id="sceneCount">I · VII</span></div>
+    <div class="music-dock">
+      <button id="audioToggle" class="sound-button" type="button" aria-label="Play or pause background music" title="Music"><span id="audioIcon">♫</span></button>
+      <span id="audioLabel" class="sound-label">Sound off</span>
+    </div>
+    <button id="helpButton" class="help-button" aria-label="Open viewing help" type="button">?</button>
+    <div id="helpBox" class="help-box" hidden><p><strong>A story, not a website.</strong></p><p>Follow the glowing objects. Each surprise unlocks the next. Sound starts after you first tap, if enabled. Press Escape to close this tip.</p><button id="helpClose" class="tiny-button">Close</button></div>
+
+    <!-- CHAPTER 1 — GIFT -->
+    <section id="scene-intro" class="scene scene-intro active" aria-label="The magical gift" aria-hidden="false">
+      <div class="dream-photo" style="--scene-art:url('assets/opening-midnight.webp')"></div>
+      <div class="fireflies" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="intro-composition scene-inner">
+        <div class="overline">A FAIRYTALE, WRITTEN JUST FOR YOU</div>
+        <h1 class="intro-title">My <em>Queen</em><span class="crown">♕</span></h1>
+        <p id="openingLine" class="intro-subtitle">Someone made a little universe just for you.</p>
+        <button class="present" id="unwrapGift" type="button" aria-label="Unwrap your birthday gift">
+          <span class="present-light"></span><span class="present-lid"></span><span class="present-box"></span><span class="present-ribbon-v"></span><span class="present-ribbon-h"></span><span class="present-bow">❦</span>
+        </button>
+        <button id="openGift" class="story-action subtle-action">Unwrap your surprise <span>✧</span></button>
+        <span class="hush">A gift from the heart, not from a store</span>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2 — LETTER -->
+    <section id="scene-wishes" class="scene scene-wishes" aria-label="Your birthday wishes" aria-hidden="true">
+      <div class="dream-photo letter-bg" style="--scene-art:url('assets/murree-cinematic.webp')"></div>
+      <div class="letter-scene scene-inner">
+        <span class="overline">CHAPTER ONE · FOR YOUR HEART</span>
+        <div id="envelopeStage" class="envelope-stage">
+          <div class="envelope"><div class="envelope-back"></div><div class="envelope-page">For you, always</div><div class="envelope-front"></div><div class="envelope-flap"></div><div class="wax">♥</div></div>
+          <h2 class="soft-title">A letter from<br><em>your Pagal</em></h2>
+          <button class="story-action" id="openLetter">Break the seal <span>✉</span></button>
+        </div>
+        <article id="letterPaper" class="letter-paper" hidden>
+          <div class="paper-mark">✿ &nbsp; A LITTLE LETTER &nbsp; ✿</div>
+          <h2 id="wishTitle">Happy Birthday, Meri Jaan.</h2>
+          <div id="wishParagraphs" class="wish-paragraphs"></div>
+          <div id="urduPoetry" class="urdu-lines" lang="ur" dir="rtl"></div>
+          <p class="ink-signature" id="wishSignature">Tumhara Pagal ♥</p>
+          <button class="story-action dark-action" id="toCake">There is one more surprise… <span>↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3 — CAKE -->
+    <section id="scene-cake" class="scene scene-cake" aria-label="Birthday cake ceremony" aria-hidden="true">
+      <div class="cake-ambient"></div><div class="fairylights" aria-hidden="true"></div>
+      <div class="cake-scene scene-inner">
+        <span class="overline">CHAPTER TWO · JUST FOR YOU</span>
+        <h2 id="cakeHeading" class="soft-title cake-title">Our little <em>celebration</em></h2>
+        <p class="cake-line" id="cakeLine" aria-live="polite">This little cake is for you, My Queen.</p>
+        <div id="cakeStage" class="cake-stage">
+          <div class="cake-halo"></div><div class="cake-topper">happy birthday<span>♡</span></div>
+          <div class="candles" id="candles" aria-hidden="true">
+            <div class="candle"><i class="flame"></i><i class="smoke"></i></div><div class="candle"><i class="flame"></i><i class="smoke"></i></div><div class="candle"><i class="flame"></i><i class="smoke"></i></div><div class="candle"><i class="flame"></i><i class="smoke"></i></div><div class="candle"><i class="flame"></i><i class="smoke"></i></div>
+          </div>
+          <div class="knife" aria-hidden="true"><span></span></div>
+          <div class="cake-body"><div class="cake-piece left-piece"><span class="cake-icing"></span><span class="cream-ribbon"></span><span class="cake-bloom">✿</span><span class="cake-detail">♡</span></div><div class="cake-piece right-piece"><span class="cake-icing"></span><span class="cream-ribbon"></span><span class="cake-bloom">✿</span><span class="cake-detail">♡</span></div></div>
+          <div class="cake-plate"></div><div id="confetti" class="confetti" aria-hidden="true"></div>
+        </div>
+        <div class="cake-instruction" id="cakeInstruction" aria-live="polite"></div>
+        <div class="cake-buttons">
+          <button class="story-action" id="cakeNext">Make a Wish <span>✧</span></button>
+          <button class="secondary-action" id="cakeReplay" hidden>↻ Replay cake</button>
+        </div>
+        <div class="cake-emotion" id="cakeEmotion" hidden></div>
+        <button class="story-action cake-continue" id="toStory" hidden>Continue to our little story <span>♡</span></button>
+      </div>
+    </section>
+
+    <!-- CHAPTER 4 — STORYBOOK -->
+    <section id="scene-story" class="scene scene-story" aria-label="Our little story" aria-hidden="true">
+      <div class="scene-inner story-scene">
+        <span class="overline dark-ink">CHAPTER THREE · THE MEMORY BOOK</span>
+        <div class="book-shell" id="bookShell">
+          <div class="book-spine"></div><div class="book-page" id="bookPage">
+            <div class="book-flower">✿</div><div id="bookContent"></div>
+            <span class="page-number" id="pageNumber">01</span>
+          </div>
+        </div>
+        <button class="story-action dark-action" id="pageTurn">Turn the page <span>↗</span></button>
+        <div class="page-caption" id="pageCaption">Every little moment becomes a treasure.</div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 5 — MURREE -->
+    <section id="scene-home" class="scene scene-home" aria-label="Guided Murree cottage dream tour" aria-hidden="true">
+      <img class="full-image" id="homeImage" src="assets/murree-cinematic.webp" alt="Cinematic Murree dream cottage scene" referrerpolicy="no-referrer">
+      <div class="photo-shade"></div><div class="tour-veil" id="homeVeil"></div>
+      <div class="scene-inner tour-inner">
+        <div class="tour-head"><span class="overline">CHAPTER FOUR · OUR LITTLE HOME</span><span class="tour-mode">✧ cinematic guided tour</span></div>
+        <div class="tour-copy" id="homeCopy"><div class="tour-kicker" id="homeKicker">THE HILLS</div><h2 id="homeTitle">A cottage in Murree</h2><p id="homeDescription">The place where our dreams feel like home.</p></div>
+        <div class="tour-controlbar"><button id="homePlayPause" type="button" class="mini-control" aria-label="Pause guided house tour">❚❚</button><button id="homePrevious" type="button" class="mini-control" aria-label="Previous home scene">‹</button><span id="homePosition" class="count-mark">01 / 07</span><button id="homeNext" type="button" class="mini-control" aria-label="Next home scene">›</button><div class="timeline"><div id="homeBar"></div></div><button class="mini-control" id="homeReplay" aria-label="Replay house tour">↻</button></div>
+        <div class="tour-end" id="homeEnd" hidden><p>Our dream is small. The love inside it is not.</p><button class="story-action" id="toKorea">Take my hand… next stop <span>✈</span></button></div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 6 — KOREA -->
+    <section id="scene-korea" class="scene scene-korea" aria-label="Our South Korea dream journey" aria-hidden="true">
+      <img class="full-image" id="koreaImage" src="assets/seoul-cinematic.webp" alt="Seoul city and travel memory" referrerpolicy="no-referrer">
+      <div class="photo-shade"></div><div class="tour-veil" id="koreaVeil"></div>
+      <div class="scene-inner tour-inner">
+        <div class="tour-head"><span class="overline">CHAPTER FIVE · TWO TICKETS TO SEOUL</span><span class="tour-mode">✧ a dream we will live one day</span></div>
+        <div class="tour-copy" id="koreaCopy"><div class="tour-kicker" id="koreaKicker">SEOUL</div><h2 id="koreaTitle">Our Korean fairytale</h2><p id="koreaDescription">A world waiting for our first hello.</p></div>
+        <div class="tour-controlbar"><button id="koreaPlayPause" type="button" class="mini-control" aria-label="Pause Korea journey">❚❚</button><button id="koreaPrevious" type="button" class="mini-control" aria-label="Previous Korea scene">‹</button><span id="koreaPosition" class="count-mark">01 / 05</span><button id="koreaNext" type="button" class="mini-control" aria-label="Next Korea scene">›</button><div class="timeline"><div id="koreaBar"></div></div><button class="mini-control" id="koreaReplay" aria-label="Replay Korea journey">↻</button></div>
+        <div class="tour-end korea-end" id="koreaEnd" hidden><p>Our tiny travel promises</p><div id="bucketList" class="bucket-list"></div><button class="story-action" id="toFinal">One last secret <span>♡</span></button></div>
+      </div>
+    </section>
+
+    <!-- CHAPTER 7 — FINALE -->
+    <section id="scene-final" class="scene scene-final" aria-label="The final love letter" aria-hidden="true">
+      <div class="dream-photo" style="--scene-art:url('assets/murree-night.webp')"></div><div class="night-sky"></div>
+      <div class="scene-inner final-inner">
+        <span class="overline">CHAPTER SIX · AND ALWAYS…</span>
+        <article class="final-paper"><div class="paper-mark">✧ MY LAST LITTLE LETTER ✧</div><h2>Forever, <em>My Queen.</em></h2><p id="finalLetter"></p><p class="ink-signature" id="finalSignature"></p><span class="final-built">Built with love, by your Software Engineer. ❤️💻</span></article>
+        <button class="story-action" id="lastSecret">Wait… your Pagal has one last thing <span>♡</span></button>
+        <div id="lastMessage" class="last-message" hidden><div class="big-heart">♥</div><p>Not every dream is a place.<br><strong>Some dreams are a person.<br>Mine is you.</strong></p><button class="secondary-action light-text" id="replayFilm">↻ Experience it all again</button></div>
+      </div>
+    </section>
+  </div>
+  <audio id="music" preload="auto" loop></audio>
+  <audio id="birthdayMusic" preload="auto"></audio>
+</body>
+</html>
