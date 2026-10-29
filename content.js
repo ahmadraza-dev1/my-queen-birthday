@@ -93,35 +93,35 @@ window.BIRTHDAY = {
       title: 'My Beautiful Queen 👑',
       caption:
         'Yeh meri favourite muskurahat hai. Allah kare tum hamesha aise hi khush raho. ❤️',
-      photo: 'media/photo1.jpg'
+      photo: 'media/photo1.jpeg'
     },
 
     {
       title: 'Our First Little Memory ❤️',
       caption:
         'Kuch lamhe chhote hote hain, lekin dil mein unki jagah bohat badi hoti hai.',
-      photo: 'media/photo2.jpg'
+      photo: 'media/photo2.jpeg'
     },
 
     {
       title: 'My Favourite Person 💕',
       caption:
         'Tumhare saath guzra hua ek simple sa lamha bhi mere liye special ban jaata hai.',
-      photo: 'media/photo3.jpg'
+      photo: 'media/photo3.jpeg'
     },
 
     {
       title: 'One Of My Favourite Moments 🌷',
       caption:
         'Yeh tasveer dekh kar bas ek hi baat dil mein aati hai... kaash aise aur bohat saare pal milen.',
-      photo: 'media/photo4.jpg'
+      photo: 'media/photo4.jpeg'
     },
 
     {
       title: 'So Many Memories To Come ❤️',
       caption:
         'InshaAllah, ek din humare paas aisi bohat saari photos hongi, jinhein dekh kar hum dono muskuraenge.',
-      photo: 'media/photo5.jpg'
+      photo: 'media/photo5.jpeg'
     }
 
   ],
