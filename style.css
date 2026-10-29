@@ -21,3 +21,35 @@
 @media(max-width:360px){.intro-title{font-size:62px}.cake-stage{height:205px}.cake-scene{padding-top:58px}.cake-title{font-size:39px}.cake-line{font-size:16px}.cake-body{height:35%}.candles{bottom:calc(37px + 35% - 9px)}.cake-topper{bottom:calc(37px + 35% + 107px)}.letter-paper{max-height:71dvh}.book-shell{height:55dvh}.story-action{padding:11px 15px;font-size:11px;min-height:45px}}
 @media(max-height:630px) and (min-width:641px){.intro-title{font-size:80px}.intro-composition{padding:45px 18px}.present{transform:scale(.7);margin:-19px auto -23px}.cake-scene{padding:45px 10px}.cake-stage{height:240px}.cake-title{font-size:49px}.book-shell{height:57vh}.letter-paper{max-height:76vh}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.cake-stage.cut .left-piece{transform:translateX(-20px)}.cake-stage.cut .right-piece{transform:translateX(20px)}}
+
+/* ❤️ MY QUEEN — PERFECT PHOTO FIT */
+
+.book-content .memory-photo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 85%;
+  max-height: 33dvh;
+  object-fit: contain;
+  object-position: center;
+  margin: 16px auto 18px;
+  border: 10px solid white;
+  background: #fffaf2;
+  box-shadow: 0 10px 28px rgba(65, 45, 35, 0.22);
+  transform: rotate(-2deg);
+}
+
+/* Mobile photo adjustment */
+@media (max-width: 640px) {
+  .book-content .memory-photo {
+    max-width: 92%;
+    max-height: 29dvh;
+    border-width: 7px;
+    margin: 12px auto 14px;
+  }
+
+  .book-content h2 {
+    font-size: 34px;
+  }
+}
+  
